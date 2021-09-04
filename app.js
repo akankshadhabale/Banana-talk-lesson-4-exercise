@@ -1,5 +1,3 @@
-var userName=prompt("Give me your username")
+var btnTranslate=document.querySelector("#btn-translate");
 
-var welcomeMessage="This scripts work!" + userName;
-
-alert(welcomeMessage);
+console.log(btnTranslate);
