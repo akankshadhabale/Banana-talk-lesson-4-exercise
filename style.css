@@ -14,14 +14,17 @@
 textarea{
     display: block;
     height: 20vh;
-    width:87%; 
+    width:92%; 
     margin:1rem 1rem;
-    padding:1rem 2rem;       
+    padding:1rem 2rem;  
+    font-size: x-large;  
+    font-family: 'Titillium Web', sans-serif;
+    color:#334155;
 }
 
 header{
     height:20vh;
-    width:95%;
+    width:99%;
     background-color:#FACC15 ;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -47,9 +50,40 @@ header{
     
 }
 
+#output{
+    font-size: x-large;
+    font-family: 'Titillium Web', sans-serif;
+    color:#334155;
+}
+
 .above-output-heading{
     margin:20px;
     font-weight: bolder;
     color:#334155;
+    font-family: 'Titillium Web', sans-serif;
     
+}
+
+footer{
+    height: 20vh;
+    width:95%;
+    margin:1rem;
+    padding:1rem;
+    background-color: #FACC15;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 20px; 
+}
+.footer-div{
+    display: block;
+    padding:1rem;
+   
+}
+
+.footer-div .footer-heading{
+    display: block;
+    text-align: center;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    color:#334155;
+    font-family: 'Titillium Web', sans-serif;
 }
